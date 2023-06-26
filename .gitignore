@@ -1,0 +1,17 @@
+# Ignore files with a .txt extension
+# *.txt
+
+# Ignore a specific file
+# filename.txt
+
+# Ignore a directory
+node_modules/
+
+# Ignore all files in a directory and its subdirectories
+# directory/**
+
+# Ignore files matching a pattern using wildcards
+# path/to/files/*.log
+
+# Ignore files matching a pattern using regular expressions
+# /build/
