@@ -1,5 +1,6 @@
 # Ignore files with a .txt extension
 # *.txt
+*.env
 
 # Ignore a specific file
 # filename.txt
