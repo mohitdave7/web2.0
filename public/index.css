@@ -1,0 +1,104 @@
+/* Add this code to your CSS file */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('./images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #f5f5f5; /* Set the background color */
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+    background-color: transparent; /* Set the background color to transparent */
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .lottery-font {
+    font-family: 'Your-Desired-Font', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .marquee-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    padding-right: 100%;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .card {
+    width: 600px;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff; /* Set the background color */
+  }
+  
+  .bg-primary {
+    background-color: #007bff;
+  }
+  
+  .fs-3 {
+    font-size: 2rem;
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
+  .alert {
+    margin-top: 1rem;
+  }
+  
+  .lottery-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 1;
+    background-color: transparent; /* Set the background color to transparent */
+  }
+  
+  .lottery-logos .logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 0.5rem;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
